@@ -1,0 +1,122 @@
+.about {
+    padding-bottom: 62px;
+}
+
+.about_content {
+    text-align: center;
+}
+
+.about_title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #242d52;
+    margin-bottom: 13px;
+}
+
+.about_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #242d52;
+    margin-bottom: 54px;
+}
+
+
+.about_sub_title {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #242d52;
+    border-radius: 39px;
+    background-color: #fff0ec;
+    padding: 10px 0px 10px 82px;
+    margin-right: -25px;
+    position: relative;
+    margin-bottom: 6px;
+
+    &::before {
+        content: "01";
+        width: 67px;
+        height: 39px;
+        display: inline-block;
+        border-radius: 39px;
+        background-color: #f3603c;
+        font-weight: 700;
+        font-size: 16px;
+        padding-top: 10px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+.about_des {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #242d52;
+    margin-bottom: 47px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding-bottom: 80px;
+    }
+
+    .about_sub_title {
+        background-color: #fff;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        padding-left: 82px;
+
+    }
+
+    .about_des {
+        max-width: 445px;
+        text-align: left;
+        line-height: 162%;
+    }
+
+    .about_block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about_content {
+        text-align: left;
+    }
+
+    .about_title {
+        max-width: 445px;
+    }
+
+    .about_text {
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width:1110px) {
+    .about {
+        padding-bottom: 146px;
+    }
+
+    .about_sub_title {
+        padding: 0;
+
+        &::before {
+            left: -90px;
+            top: -7px;
+        }
+    }
+
+
+}

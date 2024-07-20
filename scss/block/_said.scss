@@ -1,0 +1,90 @@
+.said {
+    padding-bottom: 42px;
+}
+
+.said_title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 141%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #242d52;
+    margin-bottom: 62px;
+}
+
+.said_item {
+    text-align: center;
+    padding: 60px 21px 42px 21px;
+    background-color: #fafafa;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+
+.said_img_block {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.said_sub_title {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #242d52;
+}
+
+.said_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 186%;
+    color: #242d52;
+}
+
+.said_btn {
+    border-radius: 22px;
+    box-shadow: 0 15px 15px -10px #ff9f8e;
+    background-color: #f3603c;
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fcf6f5;
+}
+
+.said_btn_block {
+    text-align: center;
+    margin-top: 47px;
+}
+
+@media screen and (min-width: 768px) {
+    .said{
+        padding-bottom: 120px;
+    }
+
+    .said_list{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .said_item{
+        margin-bottom: 48px;
+    }
+    
+
+    .said_title{
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    .said{
+        padding-bottom: 180px;
+    }
+
+    .said_list{
+        gap: 30px;
+    }
+
+}

@@ -1,0 +1,43 @@
+.team {
+    padding-top: 91px;
+    padding-bottom: 91px;
+    background-color: #f3603c;
+}
+
+.item_block {
+    text-align: center;
+}
+
+.item_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #fff;
+    margin-bottom: 29px;
+}
+
+.item_btn {
+    border-radius: 22px;
+    box-shadow: 0 15px 15px -10px #db5943;
+    background-color: #fff;
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #f3603c;
+}
+
+
+@media screen and (min-width:768px) {
+    .item_block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+
+    .item_title{
+        max-width: 445px;
+        text-align: left;
+    }
+}
